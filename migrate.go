@@ -7,7 +7,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func main() {
+func migrate() {
 
 	db, err := sql.Open("mysql", "psoberanes:Paul1990+@tcp(127.0.0.1:3306)/gotest")
 	if err != nil {
